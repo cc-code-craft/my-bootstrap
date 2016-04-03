@@ -1,0 +1,67 @@
+/* create a floating heading that is positioned relative to the header */
+.header {
+  position: relative;
+}
+
+#my-menu-heading {
+  position: absolute;
+  width: 100%;
+  margin-top: 50px;
+}
+/* end of floating title definition */
+
+/* styles for the navbar and dropdown */
+#my-nav {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #206080;
+  border-bottom-color: #000000;
+}
+
+.navbar-brand.navbar-left {
+  color: #000000;
+  font-size: 1.5em;
+}
+
+#my-dropdown-menu {
+  border-color: #206080;
+  margin-bottom: -50px;
+}
+
+#my-dropdown-list {
+  background-color: #404040;
+}
+
+#my-dropdown-list hr {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-color: #000000;
+}
+/* end of styling for the navbar and dropdown */
+
+/* styles for the main content */
+#my-main {
+  margin-top: 60px;
+}
+
+#my-menu-item {
+  height: 1000px;
+  overflow: hidden;
+  background-color: #99ebff;
+  padding: 15px;
+  margin: 0px 25px 25px 25px;
+}
+
+/* Bootstrap sm size has max-width of 991px */
+@media(max-width: 991px) {
+  #my-dropdown-menu {
+    /*background-color: #404040; not used */
+  }
+}
+
+/* Bootstrap md size has min-width of 992px */
+@media(min-width: 992px) {
+  #my-dropdown-menu {
+    /*background-color: #206080; not used */
+  }
+}

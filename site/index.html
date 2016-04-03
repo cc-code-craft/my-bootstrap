@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My Boostrap Assignment</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+    <!-- Header contains the Nav Bar and Heading ================== -->
+    <header>
+
+      <!-- Use Bootstrap to center the Heading -->
+      <!-- will be positioned relative to <header> -->
+      <div id="my-menu-heading">
+        <h3 class="text-center">Our Menu</h3>
+      </div>
+
+      <!-- Bootstrap Static Nav Bar (static means that is will scroll away) -->
+      <nav id="my-nav" class="navbar navbar-default navbar-static-top">
+        <!-- Bootstrap Container -->
+        <div class="container">
+          <div class="navbar-header">
+
+            <!-- Bootstrap navbar-brand -->
+            <div class="navbar-brand navbar-left">Food, LLC</div>
+
+            <!-- Bootstrap menu button (mobile xs only) -->
+            <button type="button" class="navbar-toggle collapsed navbar-right visible-xs" data-toggle="collapse" data-target="#my-dropdown-menu" aria-expanded="false">
+              <!-- Horizontal bars created using icon-bar style x 3 -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>  <!-- end of navbar-header -->
+
+          <!-- Outside navbar-header ================== -->
+
+          <!-- Bootstrap dropdown menu (mobile xs only) -->
+          <div id="my-dropdown-menu" class="collapse navbar-collapse">
+            <ul id="my-dropdown-list" class="nav navbar-nav visible-xs">
+              <li class="text-center"><a href="">Chicken</a></li>
+              <hr>
+              <li class="text-center"><a href="">Beef</a></li>
+              <hr>
+              <li class="text-center"><a href="">Sushi</a></li>
+            </ul>
+          </div>  <!-- end of dropdown menu-->
+        </div>    <!-- end of container for navbar -->
+      </nav>
+
+    </header>
+
+    <!-- Section contains the Main Content ================== -->
+    <section id="my-main">
+      <!-- Bootstrap Container -->
+      <div class="container">
+
+        <!-- Bootstrap Grid used: col-xs-12 -->
+        <div class="row">
+          <div class="col-xs-12">
+            <div id="my-menu-item">
+              <h4 class="text-center">Chicken</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Item 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Item 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Item 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Item 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Item 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Item 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Item 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Item 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Item 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
+              </p>
+            </div> <!-- end of my-menu-item -->
+          </div>    <!-- end of col-xs-12 -->
+        </div>      <!-- end of row -->
+      </div>        <!-- end of Bootstrap Container -->
+    </section>
+
+    <footer>
+      <!-- Footer is empty -->
+    </footer>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
